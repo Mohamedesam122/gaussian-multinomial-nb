@@ -1,2 +1,16 @@
 # gaussian-multinomial-nb
- gaussian-multinomial-nb Side-by-side from-scratch implementation of Gaussian NB (continuous features, Abalone dataset) and Multinomial NB (text classification, IMDB sentiment). Includes log-probability analysis and 7 evaluation visualizations. Python Machine Learning Naive Bayes NLP Jupyter Notebook From Scratch
+
+Implementation of Gaussian Naive Bayes and Multinomial Naive Bayes built entirely from scratch in Python.
+
+## What's inside
+- Gaussian NB on the Abalone dataset (age group prediction)
+- Multinomial NB on IMDB reviews (sentiment analysis)
+- Manual implementation of mean, variance, and accuracy
+- Bag-of-Words with Laplace smoothing — no CountVectorizer
+- Log-probability comparison to prevent numerical underflow
+- 7 visualizations: distributions, confusion matrices, word frequencies
+
+## Datasets
+- Abalone: https://www.kaggle.com/datasets/rodolfomendes/abalone-dataset
+- IMDB:    https://ai.stanford.edu/~amaas/data/sentiment/
+- 
